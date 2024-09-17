@@ -5,7 +5,7 @@ import { recipesRoute } from "./modules/recipes/recipes.route";
 import { cors } from "hono/cors";
 import { handle } from "hono/vercel";
 
-const app = new Hono();
+const app = new Hono().basePath("/api");
 
 app.use(
   "*",

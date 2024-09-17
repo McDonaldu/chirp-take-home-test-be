@@ -2,7 +2,7 @@
   "name": "chirp-take-home-test-be",
   "type": "module",
   "scripts": {
-    "dev": "tsx watch app/index.ts",
+    "start": "vercel dev",
     "deploy": "vercel"
   },
   "dependencies": {
