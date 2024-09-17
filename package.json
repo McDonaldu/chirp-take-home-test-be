@@ -1,7 +1,9 @@
 {
   "name": "chirp-take-home-test-be",
+  "type": "module",
   "scripts": {
-    "dev": "tsx watch src/index.ts"
+    "dev": "tsx watch app/index.ts",
+    "deploy": "vercel"
   },
   "dependencies": {
     "@hono/node-server": "^1.13.0",
@@ -10,6 +12,7 @@
   },
   "devDependencies": {
     "@types/node": "^20.11.17",
-    "tsx": "^4.7.1"
+    "tsx": "^4.7.1",
+    "vercel": "^37.4.2"
   }
 }
